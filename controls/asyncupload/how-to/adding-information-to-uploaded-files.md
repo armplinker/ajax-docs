@@ -31,7 +31,7 @@ var $ = $telerik.$;
 
 function onClientFileUploaded(radAsyncUpload, args) {
     var $row = $(args.get_row());
-    var inputName = radAsyncUpload.getAdditionalFieldID("TextBox");
+    var inputName = radAsyncUpload.getID("TextBox"); // NOT THE RIGHT NAME FOR METHOD radAsyncUpload.getAdditionalFieldID("TextBox");
     var inputType = "text";
     var inputID = inputName;
     var input = createInput(inputType, inputID, inputName);
