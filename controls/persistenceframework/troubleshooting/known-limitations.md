@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-# Persitence Framework Limitations
+# Persistence Framework Limitations
 
 In the following article you can find a list of limitations for **Persistence Framework** and possible workarounds (if available).
 
